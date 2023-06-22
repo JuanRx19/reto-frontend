@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&family=Tilt+Prism&family=Work+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #d5e1ef;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.principal-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro{
+    display: flex;
+    height: 470px;
+    width: 310px;
+    background-color: #fff;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    background-color: #3684fe;
+    width: 275px;
+    height: 270px;
+    border-radius: 10px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr{
+    width: 265px;
+}
+
+.recuadro h2{
+    max-width: 90%;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #19253c;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.recuadro h5{
+    max-width: 75%;
+    padding-top: 15px;
+    font-size: 14px;
+    color: rgba(159,164,170,255);
+    background-color: transparent;
+    text-align: center;
+}
